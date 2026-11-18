@@ -9,7 +9,7 @@
 - **AI models:** Gemini gemini-2.0-flash (optional, via GEMINI_API_KEY); without a key the Q&A answers from a local knowledge base built from the real package data
 - **Built with Kiro:** the repo holds a `/.kiro` folder (steering: product, tech, structure; specs: requirements, design, tasks). Kiro CLI 3.3.0 was installed on the build machine; agentic Kiro sessions still need the owner's sign-in.
 - **Started:** 2026-11-16T02:19:00Z
-- **Last updated:** 2026-11-18T04:13:40Z
+- **Last updated:** 2026-11-18T04:14:28Z
 
 ## Log
 
@@ -39,3 +39,10 @@ errors; added 11 screenshots and a PROGRESS log
 Switched Leaflet map marker icons to the Leaflet CDN so the public repo
 snapshot stays complete even though it only contains text files
 (`src/app/hari-h/Map.tsx`).
+
+### 2026-11-18 - 5f315efe
+Deployed the app to Vercel from the GitHub repo (imported in the Vercel
+dashboard by the owner, after the connector token was denied project
+access). Live at https://maya-copilot.vercel.app — verified all five routes
+return 200 and POST /api/ask answers from the local knowledge base without
+an API key. README and this log now link the live app.
