@@ -7,6 +7,33 @@ Dibangun untuk **Kiroween 2026** (AWS/Kiro, Devpost), kategori **Frankenstein**.
 Data paket: **Open Trip Maya** (Singapura 3D2N, Malaysia 3D2N, 2 Negara 4D3N)
 — harga, jadwal, dan fasilitas asli. Tanpa login, tanpa pelacakan.
 
+🔗 **Live Demo:** belum di-deploy — deploy Vercel menyusul (gratis, butuh akun pemilik).
+
+## Masalahnya
+
+Seorang tour leader open trip ditanya hal yang sama di setiap trip: harganya
+berapa, jadwalnya kapan, ketemu di mana. Dan di hari-H, peserta masih dicatat
+di kertas.
+
+## Yang dibangun
+
+Maya adalah copilot web untuk tour leader, dengan data paket asli:
+
+- **Generator itinerary** — pilih paket, tanggal, dan jumlah peserta; total harga langsung terhitung dari itinerary asli
+- **Halaman trip yang bisa dibagikan** — link shareable + kirim ringkasan trip ke WhatsApp peserta
+- **Tanya Maya** — Q&A yang menjawab dari knowledge base paket asli (opsional Gemini), tidak mengarang harga atau tanggal
+- **Mode Hari-H** — checklist, hitung peserta (dengan peringatan min. 4 orang), peta meeting point, dan generator pesan broadcast WhatsApp
+
+## Tech stack
+
+Next.js 16, React 19, TypeScript, Tailwind v4, Leaflet/OpenStreetMap. Tanpa
+login, tanpa pelacakan.
+
+## Screenshot
+
+11 screenshot (desktop + mobile) ada di folder `screenshots/` — belum ikut
+ter-push ke GitHub karena push kemarin hanya berisi file teks.
+
 ## Jalankan lokal
 
 ```bash
