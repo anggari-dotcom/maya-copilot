@@ -7,7 +7,7 @@ Dibangun untuk **Kiroween 2026** (AWS/Kiro, Devpost), kategori **Frankenstein**.
 Data paket: **Open Trip Maya** (Singapura 3D2N, Malaysia 3D2N, 2 Negara 4D3N)
 — harga, jadwal, dan fasilitas asli. Tanpa login, tanpa pelacakan.
 
-🔗 **Live Demo:** belum di-deploy — deploy Vercel menyusul (gratis, butuh akun pemilik).
+🔗 **Live Demo:** https://maya-copilot.vercel.app
 
 ## Masalahnya
 

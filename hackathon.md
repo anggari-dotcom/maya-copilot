@@ -3,13 +3,13 @@
 - **Project:** Maya — AI Tour Leader Copilot
 - **Event:** Kiroween 2026 (AWS/Kiro, Devpost)
 - **What it does:** A copilot web app for an open-trip tour leader: itinerary generator, shareable trip pages, a Q&A assistant that answers from real package data, and a day-of-trip mode with checklist, headcount, map, and WhatsApp broadcast.
-- **Live app:** not deployed (Vercel deploy pending — needs the owner's Vercel account)
+- **Live app:** https://maya-copilot.vercel.app
 - **Repo:** https://github.com/anggari-dotcom/maya-copilot
 - **Stack:** Next.js 16 + React 19 + TypeScript + Tailwind v4, Leaflet/OpenStreetMap, localStorage; no login, no tracking
 - **AI models:** Gemini gemini-2.0-flash (optional, via GEMINI_API_KEY); without a key the Q&A answers from a local knowledge base built from the real package data
 - **Built with Kiro:** the repo holds a `/.kiro` folder (steering: product, tech, structure; specs: requirements, design, tasks). Kiro CLI 3.3.0 was installed on the build machine; agentic Kiro sessions still need the owner's sign-in.
 - **Started:** 2026-11-16T02:19:00Z
-- **Last updated:** 2026-11-18T02:45:56Z
+- **Last updated:** 2026-11-18T04:13:40Z
 
 ## Log
 
