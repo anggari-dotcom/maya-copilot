@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #071831;
+  --color-navy-900: #0b2447;
+  --color-navy-800: #13315c;
+  --color-navy-700: #1d426e;
+  --color-navy-100: #dbe7f5;
+  --color-navy-50: #eef4fb;
+  --color-gold-400: #f2b705;
+  --color-gold-500: #d9a404;
+  --color-gold-600: #b8890a;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
