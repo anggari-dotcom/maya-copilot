@@ -90,7 +90,11 @@ export default function TripCard({
         {/* DP / min people */}
         <p className="text-xs text-slate-500">
           {t("dp")}:{" "}
-          {pkg.downPaymentIdr ? formatIdr(pkg.downPaymentIdr) : t("tripAskWa")}
+          {pkg.earlyBird
+            ? `${formatIdr(pkg.earlyBird.dpIdr)} (Early Bird s.d. ${pkg.earlyBird.until}, normal ${formatIdr(pkg.earlyBird.dpNormalIdr)})`
+            : pkg.downPaymentIdr
+              ? formatIdr(pkg.downPaymentIdr)
+              : t("tripAskWa")}
           {pkg.fullPaymentDeadline ? ` · ${t("fullPayment")}: ${pkg.fullPaymentDeadline}` : ""}
           {` · ${t("minPeople")}: ${pkg.minPeople} ${t("people")}`}
         </p>

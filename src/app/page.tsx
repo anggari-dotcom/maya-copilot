@@ -119,11 +119,19 @@ export default function Home() {
                 </li>
                 <li>
                   <strong>{t("dp")}:</strong>{" "}
-                  {p.downPaymentIdr
-                    ? formatIdr(p.downPaymentIdr)
-                    : lang === "id"
-                      ? "Tanya via WA"
-                      : "Ask via WA"}
+                  {p.earlyBird ? (
+                    <>
+                      {formatIdr(p.earlyBird.dpIdr)} (Early Bird s.d.{" "}
+                      {p.earlyBird.until}, normal{" "}
+                      {formatIdr(p.earlyBird.dpNormalIdr)})
+                    </>
+                  ) : p.downPaymentIdr ? (
+                    formatIdr(p.downPaymentIdr)
+                  ) : lang === "id" ? (
+                    "Tanya via WA"
+                  ) : (
+                    "Ask via WA"
+                  )}
                 </li>
               </ul>
               {p.earlyBird && (

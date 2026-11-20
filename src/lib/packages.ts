@@ -286,7 +286,7 @@ export const FAQ: FaqItem[] = [
   },
   {
     q: "Berapa DP dan bagaimana cara daftar?",
-    a: "DP Open Trip Singapura Rp 1.000.000 per orang, pelunasan paling lambat H-14, pembayaran via transfer bank atau QRIS. Untuk paket Malaysia dan 2 Negara, DP dan tenggat pelunasan silakan tanyakan via WhatsApp. Daftar via DM Instagram @opentrip_maya atau WhatsApp 0812 2829 0989.",
+    a: "DP Open Trip Singapura Rp 500.000 per orang selama Early Bird (normal Rp 1.000.000, berlaku sampai 30 Nov 2026 untuk trip Januari 2027), pelunasan paling lambat H-14, pembayaran via transfer bank atau QRIS. Untuk paket Malaysia dan 2 Negara, DP dan tenggat pelunasan silakan tanyakan via WhatsApp. Daftar via DM Instagram @opentrip_maya atau WhatsApp 0812 2829 0989.",
     tags: ["dp", "down payment", "daftar", "bayar", "pembayaran", "booking"],
   },
   {
